@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM python:3
 
 MAINTAINER Gowtham S
 
