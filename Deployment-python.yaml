@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        gowtham904/hellow-test:v23
+        image: gowtham904/hellow-test:v23
         ports:
         - containerPort: 80
 ---
