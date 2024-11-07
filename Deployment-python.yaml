@@ -4,6 +4,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello-world-deployment
+  namespace: gow
 spec:
   replicas: 1
   selector:
@@ -24,6 +25,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: hello-world-service
+  namespace: gow
 spec:
   selector:
     app: hello-world
